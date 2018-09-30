@@ -5,19 +5,6 @@
 
 using namespace std;
 
-
-void lessratio(int &a,int &b){
-	
-	int temp  = max(a,b);
-	
-	for(int i=temp; i>=1 ;i--){
-		if((!(a%i)) && (!(b%i))){
-			a = a/i;
-			b = b/i;
-		}
-	}
-}
-
 int main(){
 
     int tc,temp;
